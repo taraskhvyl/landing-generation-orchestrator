@@ -146,14 +146,14 @@ function NewPage({ busy }: { busy: boolean }) {
     <form className="card composer" onSubmit={submit}>
       <div className="composer-main">
         <IconSparkles />
-        <input id="topic" required placeholder="What should the page be about? e.g. best CRM for dentists" value={topic} onChange={(e) => setTopic(e.target.value)} />
+        <input id="topic" required placeholder="What are you selling? e.g. handmade leather wallet" value={topic} onChange={(e) => setTopic(e.target.value)} />
         <button className="btn primary lg" disabled={busy || !topic.trim()} title={busy ? 'Another page is generating' : ''}>
           <IconPlus /> Generate
         </button>
       </div>
       <div className="composer-opts">
         <label>Language <input className="input sm" value={lang} onChange={(e) => setLang(e.target.value)} /></label>
-        <label className="grow">Style <input className="input sm" placeholder="optional, e.g. calm, clinical, mint" value={style} onChange={(e) => setStyle(e.target.value)} /></label>
+        <label className="grow">Style <input className="input sm" placeholder="optional, e.g. warm, editorial, terracotta" value={style} onChange={(e) => setStyle(e.target.value)} /></label>
         <label className="switch">
           <input type="checkbox" checked={review} onChange={(e) => setReview(e.target.checked)} />
           <span className="track" />

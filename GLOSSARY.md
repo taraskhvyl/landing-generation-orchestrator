@@ -1,6 +1,6 @@
 # Glossary
 
-- **Topic** — the free-text subject of one landing page, given on the CLI (`"best CRM for dentists"`).
+- **Topic** — the free-text subject of one landing page, given on the CLI (`"handmade leather wallet"`).
 - **Slug** — URL-safe form of the Topic; names the page's folder `out/<slug>/`.
 - **Stage** — one step of the pipeline. Each Stage reads earlier Stage files and writes exactly one file. Order: `research → outline → copy → design → html`.
 - **Research** — web-searched facts, numbers and sources about the Topic (`research.md`). The thing that keeps a Page from being thin content.

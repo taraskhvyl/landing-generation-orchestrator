@@ -4,9 +4,9 @@ import { tmpdir } from 'node:os';
 import { browserCheck } from './browser.ts';
 import { seoCheck } from './seo.ts';
 
-const page = (body: string, head = '<title>Dental CRM</title><meta name="description" content="CRM for dentists.">') =>
+const page = (body: string, head = '<title>Leather wallet</title><meta name="description" content="Handmade leather wallets.">') =>
   `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${head}</head>
-<body><main><h1>Dental CRM</h1>${body}</main></body></html>`;
+<body><main><h1>Leather wallet</h1>${body}</main></body></html>`;
 
 // SEO
 assert.deepEqual(seoCheck(page(''), 'en'), []);

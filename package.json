@@ -1,5 +1,5 @@
 {
-  "name": "lp-gen",
+  "name": "landing-generation-orchestrator",
   "private": true,
   "license": "MIT",
   "type": "module",
