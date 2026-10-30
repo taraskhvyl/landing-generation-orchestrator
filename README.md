@@ -54,3 +54,7 @@ Add a stage: create `src/stages/<name>.ts` exporting a `StageDef`, add it to `ST
 npm test          # page ids/slugs + SEO and browser checks, no API key needed
 npm run typecheck # server and web
 ```
+
+## License
+
+[MIT](LICENSE)
